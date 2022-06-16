@@ -1,0 +1,53 @@
+/* --------------------------------
+            POSTS STARt
+-------------------------------- */
+.main-content { color: white; }
+
+.main-content .title h2 {
+    margin: 23px 0 14px 0;
+    padding-left: 0;
+}
+
+
+.main-content .title { padding: 0 15px; }
+
+.main-content .title a {
+    color: #fff;
+    padding: 15px 25px;
+    border: 1px solid #dc424c;
+    border-radius: 8px;
+    font-size: .8rem;
+    margin: 23px 0 14px 0;
+}
+
+.main-content .title a:hover {
+    background: #dc424c;
+    transition: all .3s;
+}
+
+.main-content .posts { margin: 25px 15px; }
+
+.main-content .posts .title-table { border-bottom: 2px solid #dc424c; }
+
+.main-content .posts .title-table .err p {
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+/* --------------------------------
+            POSTS END
+-------------------------------- */
+
+.main-content .admin_post, .main-content .admin_comments,
+.main-content .admin_contact, .main-content .admin_topics, 
+.main-content .admin_user {
+    font-size: .8rem;
+    border-bottom: 1px solid #dc424c;
+}
+
+.main-content .admin_post .manag a:hover, .main-content .admin_comments .manag a:hover,
+.main-content .admin_contact .manag a:hover, .main-content .admin_topics .manag a:hover, 
+.main-content .admin_user .manag a:hover {
+    color: #dc424c;
+    transition: all .3s;
+}

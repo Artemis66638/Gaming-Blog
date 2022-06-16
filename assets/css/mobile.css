@@ -1,0 +1,436 @@
+@media screen and (max-width: 1200px) {
+    /* --------------------------------
+            SLIDER STARt
+    -------------------------------- */
+    .carousel {
+        height: auto;
+    }
+
+    .container_slider {
+        padding-bottom: 15px;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 1.3rem;
+    }
+
+    .carousel-inner, .carousel-item {
+        height: 335px;
+    }
+    /* --------------------------------
+            SLIDER END
+     -------------------------------- */
+}
+
+@media screen and (max-width: 995px) {
+    /* --------------------------------
+            MAIN STARt
+    -------------------------------- */
+    #content { flex-direction: column-reverse; }
+    #content_user { flex-direction: column;}
+    /* --------------------------------
+            MAIN END
+    -------------------------------- */
+
+    /* --------------------------------
+            SIDEBAR STARt
+    -------------------------------- */
+    .sidebar_hack { padding-left: 0; }
+
+    .sidebar_content .sidebar_back {
+        height: 130px;
+        transition: .2s;
+    }
+
+    .sidebar_help .sidebar_back {
+        height: 80px;
+        transition: .2s;
+    }
+
+    .sidebar .button { display: block; }
+
+    .sidebar h3 {
+        width: auto;
+        padding-left: 20px;
+    }
+
+    .sidebar .col-md-2 {
+        width: auto;
+        padding-right: 35px;
+    }
+
+    .sidebar .section { padding: 20px 20px 0 20px; }
+
+    .sidebar_help .section { padding: 0 20px 0 20px; }
+
+    .desctop_sidebar_user { display: none; }
+    .sidebar .topics {
+        display: none;
+        position: relative;
+        padding-bottom: 0;
+        transition: .2s;
+    }
+
+    .sidebar_user { display: block; }
+    .sidebar_user .topics {
+        display: block;
+        padding: 0 20px 0 20px;
+    }
+
+    .sidebar_admin  { display: block; }
+    .sidebar_admin .sidebar_back {
+        height: 80px;
+        transition: .2s;
+    }
+    
+    .sidebar_help .title, .sidebar_admin .title { border-bottom: 0; }
+    /* --------------------------------
+            SIDEBAR END
+    -------------------------------- */
+
+    /* --------------------------------
+            USER_PROFILE STARt
+    -------------------------------- */
+    #main-content .title h2 { font-size: 1.2rem; }
+    /* --------------------------------
+            USER_PROFILE STARt
+    -------------------------------- */
+}
+
+@media screen and (max-width: 990px) {
+    /* --------------------------------
+            SLIDER STARt
+    -------------------------------- */
+    .container_slider {
+        padding-bottom: 10px;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 1.1rem;
+    }
+
+    .carousel-inner, .carousel-item {
+        height: 255px;
+    }
+    /* --------------------------------
+            SLIDER END
+    -------------------------------- */
+
+    /* --------------------------------
+            FOOTER START
+    -------------------------------- */
+    .footer .social .contact span { font-size: .7rem;}
+    /* --------------------------------
+            FOOTER END
+    -------------------------------- */
+}
+
+
+
+@media screen and (max-width: 770px) {
+    /* --------------------------------
+            HEADER STARt
+    -------------------------------- */
+    header h1 {
+        font-size: 1rem;
+    }
+
+    header .menu {
+        display: none;
+        background: #313131;
+        position: absolute;
+        top: 70px;
+    
+        transition: .2s;
+        transform-origin: right top;
+        transform: scale(0) translateX(0);
+    }
+
+    header .mobile_menu {
+        display: block;
+        padding: 22px;
+        cursor: pointer;
+    }
+
+    header .mobile_menu div:hover {
+        color: #EF5962;
+        transition: all .2s;
+    }
+
+    header ul li ul {
+        top: 70px;
+        transition: .2s;
+        transform-origin: right top;
+        transform: scale(0) translateX(0);
+    }
+    
+    header ul li #desctop_log { display: none; }
+
+    header ul li #mobile_profile {
+        display: block;
+        font-size: .8rem;
+        padding: 22px 35px;
+        cursor: pointer;
+    }
+
+    header ul li #mobile_profile i {
+        font-size: 1.2rem;
+    }
+
+    header ul li #mobile_profile:hover i {
+        color: #EF5962;
+        transition: all .2s;
+    }
+
+    header ul li ul li #mobile_log { display: block; }
+
+    header ul li .under_menu .mobile_link { display: block; }
+    /* --------------------------------
+            HEADER END 
+    -------------------------------- */
+
+    /* --------------------------------
+            MAIN STARt
+    -------------------------------- */
+    .main-content .all-post {
+        padding-left: 10px;
+    }
+
+    #main-content .title h2 {
+        font-size: .9rem;
+        width: auto;
+    }
+    #main-content .title .title_con_user {
+        font-size: .7rem;
+    }
+
+    .main-content .title .button {
+        width: auto;
+    }
+
+    .main-content .title a {
+        padding: 10px 20px;
+        font-size: .7rem;
+        margin: 20px 0 14px 0;
+    }
+
+    .main-content .all-post .post .img { 
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .main-content .all-post .post_text { margin-bottom: 10px;}
+
+
+    .main-content .title-table span { font-size: .75rem; }
+
+    .main-content .user_post span, .main-content .user_post a,
+    .main-content .user_comments span, .main-content .user_comments a  { font-size: .7rem; }
+    
+    .main-content .admin_post span, .main-content .admin_post a,
+    .main-content .admin_topics span, .main-content .admin_topics a,
+    .main-content .admin_comments span, .main-content .admin_comments a,
+    .main-content .admin_contact span, .main-content .admin_contact a { font-size: .7rem; }
+
+    .main-content .admin_user span, .main-content .admin_user a { font-size: .6rem; }
+    /* --------------------------------
+            MAIN STARt
+    -------------------------------- */
+
+    /* --------------------------------
+            SLIDER STARt
+    -------------------------------- */
+    .carousel-caption h5 { font-size: .9rem; }
+
+    .carousel-inner, .carousel-item { height: 190px; }
+    /* --------------------------------
+            SLIDER END
+    -------------------------------- */
+
+    /* --------------------------------
+                USER_PROFILE STARt
+    -------------------------------- */
+    .main-content .mobile_title_user .user {
+        width: auto;
+    }
+
+    .main-content .mobile_title_user a {
+        font-size: .6rem;
+    }
+    /* --------------------------------
+                USER_PROFILE STARt
+    -------------------------------- */
+
+    /* --------------------------------
+            FOOTER START
+    -------------------------------- */
+    .footer .social .contact span { font-size: .9rem;}
+
+    .footer .footer-bottom { font-size: .8rem; }
+    /* --------------------------------
+            FOOTER END
+    -------------------------------- */
+
+    /* --------------------------------
+            CREATE_POST END
+    -------------------------------- */
+    .main-content .title_create, .main-content .title_crete_topic,
+    .main-content .title_create_user, .main-content .title_edit_user, .main-content 
+    .title_edit_comments, .main-content .title_view_contact { width: 0%; }
+
+    .main-content .title_crete_topic, .main-content .title_create_user, .main-content .title_edit_user, 
+    .main-content .title_edit_comments, .main-content .title_view_contact { font-size: 1rem; }
+
+
+
+    /* --------------------------------
+            CREATE_POST END
+    -------------------------------- */
+}
+
+
+@media screen and (max-width: 570px) {
+    /* --------------------------------
+            HEADER START 
+    -------------------------------- */
+    header .menu { right: 20px; }
+    /* --------------------------------
+            HEADER END 
+    -------------------------------- */
+
+    /* --------------------------------
+            PAGINATION START
+    -------------------------------- */
+    .pagination .page-link_hack {
+        font-size: .8rem;
+    } 
+
+    /* --------------------------------
+                PAGINATION END
+    -------------------------------- */
+}
+
+/* --------------------------------
+        MENU STARt
+-------------------------------- */
+.sidebar .sidebar_menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+header ul li .btn_menu,
+.sidebar .sidebar_menu .btn_sidebar_menu {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.sidebar .sidebar_menu li {
+    position: relative;
+    float: left;
+}
+
+.sidebar ul li a {
+    display: block;
+    font-size: .8rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 22px;
+}
+
+header ul li .btn_menu span,
+header ul li .btn_menu span::before,
+header ul li .btn_menu span::after,
+.sidebar ul li .btn_sidebar_menu span,
+.sidebar ul li .btn_sidebar_menu span::before,
+.sidebar ul li .btn_sidebar_menu span::after {
+    content: '';
+    display: block;
+    transition: .2s;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #FFF;
+    transition-duration: .25s;
+}
+
+header ul li .btn_menu span::before,
+.sidebar ul li .btn_sidebar_menu span::before { top: 10px; }
+
+header ul li .btn_menu span::after,
+.sidebar ul li .btn_sidebar_menu span::after { top: -10px; }
+
+header ul li .btn_menu-active span,
+header ul li .btn_menu-active span::before,
+header ul li .btn_menu-active span::after,
+.sidebar ul li .btn_menu-active span::before,
+.sidebar ul li .btn_menu-active span::after {
+    background-color: #EF5962;
+}
+
+header ul li .btn_menu-active span,
+.sidebar ul li .btn_menu-active span {
+    height: 0;
+    transform: rotate(-45deg);
+}
+
+header ul li .btn_menu-active span::before,
+.sidebar ul li .btn_menu-active span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+header ul li .btn_menu-active span::after,
+.sidebar ul li .btn_menu-active span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+header .menu_active {
+    display: block;
+    transform: scale(1) translateX(0%);
+    z-index: 22;
+}
+header ul li .mobile_profile-active i {
+    color: #EF5962;
+}
+
+.sidebar .topics-active {
+    display: block;
+    padding-bottom: 20px;
+}
+.sidebar_content .sidebar-active {
+    height: 360px;
+    background: #242525;
+}
+
+.sidebar_help .sidebar-active {
+    height: 255px;
+    background: #242525;
+}
+
+.sidebar_admin .sidebar-active {
+    height: 415px;
+    background: #242525;
+}
+/* --------------------------------
+        MENU END
+-------------------------------- */
+
+/* --------------------------------
+        SLIDER STARt
+-------------------------------- */
+.sidebar_user .topics ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sidebar_user .topics ul li a:hover{
+    padding-left: 0;
+}
+/* --------------------------------
+        SLIDER EDN
+-------------------------------- */
